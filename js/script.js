@@ -8,17 +8,17 @@
 
 
 // //generar nuevo enlace en 
-// const nuevoElemento = document.createElement('A');
+ const nuevoElemento = document.createElement('A');
 // //agregar href
-// nuevoElemento.href= 'nuevo-enlace.html'
+ nuevoElemento.href= 'nuevo-enlace.html'
 // //agreagar texto
-// nuevoElemento.textContent= 'Nuevo enlace'
+ nuevoElemento.textContent= 'Nuevo enlace'
 // //agregar clase ya exitente que contiente los estilos de CSS
-// nuevoElemento.className= 'navegacion__enlace'
+ nuevoElemento.className= 'navegacion__enlace'
 // //agregar al documento
-// const navegacion = document.querySelector('.navegacion');
-// navegacion.appendChild(nuevoElemento);
-// console.log(nuevoElemento);
+ const navegacion = document.querySelector('.navegacion');
+ navegacion.appendChild(nuevoElemento);
+ console.log(nuevoElemento);
 
 //////////////////////////////////////////////////////////////ss///////////////
 
