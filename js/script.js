@@ -22,17 +22,19 @@
 
 //////////////////////////////////////////////////////////////ss///////////////
 
-console.log(2);
-window.addEventListener('load',function(){//load espera a que se carge el JS y los archivos que dependen del  HTML esten listos
-console.log(3);
-});
-document.addEventListener('DOMContentLoaded',function(){//solpo espera por el HTML no espera ni CSS ni Imagenes
-console.log(8);
-})
-console.log(5);
+// console.log(2);
+// window.addEventListener('load',function(){//load espera a que se carge el JS y los archivos que dependen del  HTML esten listos
+// console.log(3);
+// });
+// document.addEventListener('DOMContentLoaded',function(){//solpo espera por el HTML no espera ni CSS ni Imagenes
+// console.log(8);
+// })
+// console.log(5);
 
 
-//Seleccionar un elemento y asociarles un evento
-const btnEnviar = document.querySelector('boton boton--secundario');
-btnEnviar.addEventListener();
+// //Seleccionar un elemento y asociarles un evento
+// const btnEnviar = document.querySelector('.boton boton--secundario');
+// btnEnviar.addEventListener('click',function(){
+//     console.log('enviando formulario');
+// });
 
